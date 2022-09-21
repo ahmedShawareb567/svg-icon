@@ -1,0 +1,26 @@
+.App {
+  padding: 3rem 2rem;
+  text-align: center;
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border: 0.1rem solid #cd104d;
+    color: #fff;
+    background-color: #cd104d;
+    border-radius: 50%;
+    margin: 0rem 0.5rem;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      background-color: transparent;
+      color: #cd104d;
+    }
+  }
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
